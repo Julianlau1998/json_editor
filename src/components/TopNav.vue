@@ -9,7 +9,7 @@
             <div class="column settingsWrapper">
                 <div v-if="settings" class="settingsItems settings">
                     <label v-if="helpAvailable" class="label is-pointer setting noselect">
-                        <input @change="fileInput" accept=".txt" type="file" required/>
+                        <input @change="fileInput" accept=".txt, .json, .js" type="file" required/>
                         <span>
                             Import File
                         </span>
