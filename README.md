@@ -1,4 +1,4 @@
-# markdown_editor
+# json_editor
 
 ## Project setup
 ```
